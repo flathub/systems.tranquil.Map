@@ -1,6 +1,6 @@
 id: systems.tranquil.Map
 runtime: org.gnome.Platform
-runtime-version: '49'
+runtime-version: '50'
 sdk: org.gnome.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
@@ -36,6 +36,6 @@ modules:
     sources:
       - type: git
         url: https://git.sr.ht/~rbdr/map-linux
-        tag: 1.0.2
-        commit: 34a4ddeb3ad4c2b4e317648f58db5a460f4a14bb
+        tag: 1.0.3
+        commit: 83a8749b5c6fd15b4fc865d6c4578ac146aa5830
       - cargo-sources.json
